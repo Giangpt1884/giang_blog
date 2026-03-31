@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "title": "Giới thiệu về Next.js 14",
+    "slug": "gioi-thieu-nextjs-14",
+    "excerpt": "Tìm hiểu về các tính năng mới trong Next.js 14 và App Router",
+    "content": "# Nội dung bài viết...\n\nĐây là nội dung mẫu cho bài viết đầu tiên.",
+    "coverImage": "/images/posts/nextjs-14.jpg",
+    "author": {
+      "id": "1",
+      "name": "Nguyên Văn A",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "1",
+      "name": "Tutorial",
+      "slug": "tutorial"
+    },
+    "publishedAt": "2024-01-15T10:00:00Z",
+    "tags": ["nextjs", "react", "tutorial"],
+    "readingTime": 5
+  }
+]
