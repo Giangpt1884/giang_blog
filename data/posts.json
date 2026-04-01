@@ -8,7 +8,7 @@
     "coverImage": "/images/posts/nextjs-14.jpg",
     "author": {
       "id": "1",
-      "name": "Nguyên Văn A",
+      "name": "Phạm Trường Giang",
       "avatar": "/images/authors/author-1.jpg",
       "bio": "Full-stack Developer"
     },
@@ -18,7 +18,11 @@
       "slug": "tutorial"
     },
     "publishedAt": "2024-01-15T10:00:00Z",
-    "tags": ["nextjs", "react", "tutorial"],
+    "tags": [
+      "nextjs",
+      "react",
+      "tutorial"
+    ],
     "readingTime": 5
   }
 ]
