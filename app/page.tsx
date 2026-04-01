@@ -1,11 +1,11 @@
 import PostList from '@/components/blog/PostList'
-import postsData from '@/data/posts.json'
-import { Post } from '@/types'
+import { getPosts } from '@/lib/api'
 import Link from 'next/link'
 
-export default function Home() {
-  // Lấy dữ liệu mẫu từ mock JSON array
-  const posts = postsData as Post[]
+export default async function Home() {
+  // Demo lấy nhanh hiển thị top 3 bài trên home
+  const posts = await getPosts()
+  const recentPosts = posts.slice(0, 3)
 
   return (
     <div className="flex flex-col min-h-[calc(100vh-160px)]">
@@ -44,7 +44,7 @@ export default function Home() {
             </Link>
           </div>
           
-          <PostList posts={posts} />
+          <PostList posts={recentPosts} />
 
           <div className="mt-8 text-center sm:hidden">
             <Link href="/blog" className="btn bg-gray-50 text-primary-600 hover:bg-gray-100 w-full text-center">

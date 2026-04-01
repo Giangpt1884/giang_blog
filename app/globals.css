@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --color-primary-50: #eff6ff;
@@ -16,25 +17,29 @@
   }
 
   h1 {
-    @apply text-4xl font-bold mb-4;
+    @apply text-4xl font-bold mb-4 whitespace-pre-wrap break-words;
   }
 
   h2 {
-    @apply text-3xl font-semibold mb-3;
+    @apply text-3xl font-semibold mb-3 mt-8 pb-2 break-words;
   }
 
   h3 {
-    @apply text-2xl font-semibold mb-2;
+    @apply text-2xl font-semibold mb-2 break-words;
+  }
+
+  p {
+    @apply mb-4 leading-relaxed break-words;
   }
 }
 
 @layer components {
   .container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
   .btn {
-    @apply px-4 py-2 rounded-md font-medium transition-colors inline-flex items-center justify-center;
+    @apply px-4 py-2 rounded-md font-medium transition-colors inline-flex items-center justify-center cursor-pointer;
   }
 
   .btn-primary {
@@ -42,6 +47,6 @@
   }
 
   .card {
-    @apply bg-white rounded-lg shadow-md p-6;
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
   }
 }
