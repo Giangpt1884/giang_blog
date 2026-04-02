@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">NextJS Blog</h3>
+            <h3 className="text-lg font-bold">Giangpt Blog</h3>
             <p className="text-sm text-gray-600 max-w-xs">
-              Nền tảng học tập Next.js thực tế, giúp bạn làm chủ React và App Router từ cơ bản đến nâng cao.
+              Nền tảng chia sẻ kiến thức và kinh nghiệm thực tế.
             </p>
           </div>
 
@@ -30,18 +30,20 @@ export default function Footer() {
               Đăng ký nhận tin để không bỏ lỡ các bài viết mới nhất.
             </p>
             <div className="flex gap-2">
-              <input 
-                type="email" 
-                placeholder="Email của bạn" 
-                className="flex-1 px-3 py-2 border rounded-md text-sm outline-none focus:ring-1 focus:ring-primary-600"
+              <input
+                type="email"
+                placeholder="Email của bạn"
+                className="flex-1 px-3 py-2 border rounded-md text-sm outline-none focus:ring-1 focus:ring-black"
               />
-              <button className="btn btn-primary px-4 text-sm">Gửi</button>
+              <button className="h-10 px-4 text-sm font-medium rounded-md bg-black text-white hover:bg-gray-800 transition-colors">
+                Gửi
+              </button>
             </div>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t text-center text-sm text-gray-500">
-          <p>© {currentYear} NextJS Blog Learning Platform. All rights reserved.</p>
+          <p>© {currentYear} Giangpt Blog. All rights reserved.</p>
         </div>
       </div>
     </footer>

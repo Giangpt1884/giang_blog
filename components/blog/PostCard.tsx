@@ -11,7 +11,7 @@ interface PostCardProps {
 export default function PostCard({ post }: PostCardProps) {
   return (
     <Link href={`/blog/${post.slug}`}>
-      <article className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300 group h-full flex flex-col">
+      <article className="bg-white rounded-xl border border-gray-200 overflow-hidden group h-full flex flex-col hover:border-gray-300 transition-colors">
         {/* Cover Image */}
         <div className="relative h-56 w-full overflow-hidden bg-gray-100">
           <Image
@@ -22,7 +22,7 @@ export default function PostCard({ post }: PostCardProps) {
             className="object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute top-4 left-4 z-10">
-            <span className="bg-primary-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+            <span className="bg-white text-black text-xs font-bold px-3 py-1 rounded-full border border-gray-200">
               {post.category.name}
             </span>
           </div>
@@ -30,7 +30,7 @@ export default function PostCard({ post }: PostCardProps) {
 
         <div className="p-6 flex flex-col flex-1">
           {/* Title */}
-          <h3 className="text-xl font-bold mb-3 line-clamp-2 text-gray-900 group-hover:text-primary-600 transition-colors">
+          <h3 className="text-xl font-bold mb-3 line-clamp-2 text-gray-900 group-hover:text-gray-600 transition-colors">
             {post.title}
           </h3>
 
@@ -51,7 +51,7 @@ export default function PostCard({ post }: PostCardProps) {
                     className="object-cover"
                   />
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center bg-primary-100 text-primary-700 font-bold text-xs uppercase">
+                  <div className="flex h-full w-full items-center justify-center bg-gray-100 text-gray-700 font-bold text-xs uppercase">
                     {post.author.name.charAt(0)}
                   </div>
                 )}

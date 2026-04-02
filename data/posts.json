@@ -24,5 +24,335 @@
       "tutorial"
     ],
     "readingTime": 5
+  },
+  {
+    "id": "2",
+    "title": "Tương lai của Trí tuệ Nhân tạo trong năm 2026",
+    "slug": "tuong-lai-ai-2026",
+    "excerpt": "Khám phá những bước tiến vượt bậc của AI và cách nó sẽ thay đổi cuộc sống của chúng ta.",
+    "content": "# Trí tuệ Nhân tạo 2026\n\nAI không chỉ còn là công cụ hỗ trợ mà dần trở thành người đồng hành trong mọi lĩnh vực...",
+    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "2",
+      "name": "Công nghệ",
+      "slug": "cong-nghe"
+    },
+    "publishedAt": "2024-02-01T08:00:00Z",
+    "tags": ["AI", "Tech", "Future"],
+    "readingTime": 6
+  },
+  {
+    "id": "3",
+    "title": "10 thói quen giúp cải thiện giấc ngủ của bạn",
+    "slug": "10-thoi-quen-cai-thien-giac-ngu",
+    "excerpt": "Ngủ ngon hơn mỗi đêm với những thói quen đơn giản nhưng cực kỳ hiệu quả này.",
+    "content": "# Cải thiện giấc ngủ\n\nBạn cảm thấy mệt mỏi mỗi sáng thức dậy? Hãy áp dụng ngay những cách sau đây...",
+    "coverImage": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "3",
+      "name": "Sức khỏe",
+      "slug": "suc-khoe"
+    },
+    "publishedAt": "2024-02-15T09:30:00Z",
+    "tags": ["Health", "Lifestyle", "Sleep"],
+    "readingTime": 4
+  },
+  {
+    "id": "4",
+    "title": "Khám phá Kyoto mộng mơ vào mùa hoa anh đào",
+    "slug": "kham-pha-kyoto-hoa-anh-dao",
+    "excerpt": "Hành trình 3 ngày trải nghiệm trọn vẹn vẻ đẹp cổ kính của cố đô Nhật Bản.",
+    "content": "# Mùa hoa anh đào ở Kyoto\n\nKyoto khoác lên mình tấm áo hồng rực rỡ nhất khi tháng 4 gõ cửa...",
+    "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "4",
+      "name": "Du lịch",
+      "slug": "du-lich"
+    },
+    "publishedAt": "2024-03-05T14:15:00Z",
+    "tags": ["Travel", "Japan", "Spring"],
+    "readingTime": 8
+  },
+  {
+    "id": "5",
+    "title": "Kỹ năng quản lý thời gian hiệu quả cho người bận rộn",
+    "slug": "ky-nang-quan-ly-thoi-gian",
+    "excerpt": "Áp dụng phương pháp Pomodoro và ma trận Eisenhower để tối ưu hóa năng suất làm việc.",
+    "content": "# Quản lý thời gian\n\nKhông phải ai cũng có quá ít thời gian, đôi khi chỉ vì ta chưa biết cách sắp xếp...",
+    "coverImage": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "5",
+      "name": "Kỹ năng mềm",
+      "slug": "ky-nang-mem"
+    },
+    "publishedAt": "2024-03-20T07:45:00Z",
+    "tags": ["Productivity", "Soft Skills", "Work"],
+    "readingTime": 5
+  },
+  {
+    "id": "6",
+    "title": "Công thức nấu phở bò chuẩn vị truyền thống",
+    "slug": "cong-thuc-pho-bo-truyen-thong",
+    "excerpt": "Bí quyết ninh xương và nêm nếm gia vị để có bát phở thanh ngọt, đậm đà.",
+    "content": "# Tinh hoa phở Việt\n\nĐể nấu được nồi nước dùng phở chuẩn vị cần sự kiên nhẫn và tỉ mỉ trong từng khâu...",
+    "coverImage": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "6",
+      "name": "Ẩm thực",
+      "slug": "am-thuc"
+    },
+    "publishedAt": "2024-04-02T11:00:00Z",
+    "tags": ["Food", "Cooking", "Vietnamese"],
+    "readingTime": 10
+  },
+  {
+    "id": "7",
+    "title": "Bắt đầu đầu tư chứng khoán với số vốn nhỏ",
+    "slug": "dau-tu-chung-khoan-von-nho",
+    "excerpt": "Những nguyên tắc cơ bản dành cho người mới bước chân vào thị trường tài chính.",
+    "content": "# Đầu tư thông minh\n\nBạn không cần có quá nhiều tiền mới có thể bắt đầu đầu tư. Điều quan trọng là bắt đầu sớm...",
+    "coverImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "7",
+      "name": "Tài chính",
+      "slug": "tai-chinh"
+    },
+    "publishedAt": "2024-04-10T08:30:00Z",
+    "tags": ["Finance", "Investing", "Money"],
+    "readingTime": 7
+  },
+  {
+    "id": "8",
+    "title": "Review điện ảnh: Sự trỗi dậy của AI trên màn ảnh rộng",
+    "slug": "review-dien-anh-ai",
+    "excerpt": "Phân tích cách điện ảnh hiện đại khai thác chủ đề robot và trí tuệ nhân tạo.",
+    "content": "# Kỷ nguyên điện ảnh\n\nĐiện ảnh luôn phản chiếu nỗi sợ hãi và kỳ vọng của con người về công nghệ... ",
+    "coverImage": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "8",
+      "name": "Giải trí",
+      "slug": "giai-tri"
+    },
+    "publishedAt": "2024-04-20T20:00:00Z",
+    "tags": ["Review", "Movies", "Cinema"],
+    "readingTime": 6
+  },
+  {
+    "id": "9",
+    "title": "5 tựa sách thay đổi hoàn toàn tư duy của tôi",
+    "slug": "5-sach-thay-doi-tu-duy",
+    "excerpt": "Danh sách các cuốn sách mang đến góc nhìn sâu sắc và có ảnh hưởng đến sự nghiệp.",
+    "content": "# Sách đồng hành\n\nMỗi cuốn sách là một thế giới. Đây là 5 tác phẩm đã giúp tôi mở rộng tầm mắt...",
+    "coverImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "9",
+      "name": "Review Sách",
+      "slug": "review-sach"
+    },
+    "publishedAt": "2024-05-01T09:15:00Z",
+    "tags": ["Books", "Review", "Mindset"],
+    "readingTime": 5
+  },
+  {
+    "id": "10",
+    "title": "Hướng dẫn chạy bộ đúng tư thế tránh chấn thương",
+    "slug": "chay-bo-dung-tu-the",
+    "excerpt": "Từ chọn giày đến cách tiếp đất, giúp bạn cải thiện sức bền và tận hưởng đường chạy.",
+    "content": "# Nhịp đập của sự bền bỉ\n\nChạy bộ là môn thể thao đơn giản nhất, nhưng làm sao lại dễ chấn thương đến vậy?...",
+    "coverImage": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "3",
+      "name": "Sức khỏe",
+      "slug": "suc-khoe"
+    },
+    "publishedAt": "2024-05-15T06:00:00Z",
+    "tags": ["Sports", "Fitness", "Running"],
+    "readingTime": 4
+  },
+  {
+    "id": "11",
+    "title": "Cẩm nang bố cục trong nhiếp ảnh phong cảnh",
+    "slug": "cam-nang-nhiep-anh-phong-canh",
+    "excerpt": "Áp dụng quy tắc 1/3, đường dẫn và đóng khung tự nhiên để tạo chiều sâu cho ảnh.",
+    "content": "# Góc máy sáng tạo\n\nMột bức ảnh đẹp đôi khi không nằm ở thiết bị xịn, mà ở con mắt người cầm máy...",
+    "coverImage": "https://images.unsplash.com/photo-1622352877134-bd1bb7748dc7?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "10",
+      "name": "Nhiếp ảnh",
+      "slug": "nhiep-anh"
+    },
+    "publishedAt": "2024-06-01T15:00:00Z",
+    "tags": ["Photography", "Art", "Camera"],
+    "readingTime": 7
+  },
+  {
+    "id": "12",
+    "title": "Tìm hiểu về kiến trúc Microservices",
+    "slug": "kien-truc-microservices-co-ban",
+    "excerpt": "Ưu nhược điểm và thời điểm thích hợp để chuyển đổi hệ thống từ Monolith.",
+    "content": "# Kiến trúc phần mềm\n\nMicroservices đang là xu hướng, nhưng liệu dự án của bạn có thực sự cần nó?...",
+    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "2",
+      "name": "Công nghệ",
+      "slug": "cong-nghe"
+    },
+    "publishedAt": "2024-06-12T10:30:00Z",
+    "tags": ["Architecture", "Backend", "System"],
+    "readingTime": 9
+  },
+  {
+    "id": "13",
+    "title": "Không gian đa chiều: Bí ẩn của vũ trụ",
+    "slug": "khong-gian-da-chieu",
+    "excerpt": "Giải thích thuyết dây và khái niệm về đa vũ trụ dưới góc nhìn khoa học dễ tiếp cận.",
+    "content": "# Bí ẩn ngoài không gian\n\nNgoài 3 chiều không gian chúng ta biết, liệu có tồn tại vô số các không gian khác đan xen?...",
+    "coverImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "11",
+      "name": "Khoa học",
+      "slug": "khoa-hoc"
+    },
+    "publishedAt": "2024-07-01T21:00:00Z",
+    "tags": ["Science", "Space", "Physics"],
+    "readingTime": 8
+  },
+  {
+    "id": "14",
+    "title": "Trải nghiệm dã ngoại cùng chiếc xe Hybrid thế hệ mới",
+    "slug": "trai-nghiem-xe-hybrid",
+    "excerpt": "Đánh giá hiệu năng thực tế của xe hybrid trên hành trình đường dài và đường núi.",
+    "content": "# Bốn bánh và tự do\n\nSự lai ghép giữa xăng và điện có mang lại hiệu năng ổn định trên hành trình dài?...",
+    "coverImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "12",
+      "name": "Xe cộ",
+      "slug": "xe-co"
+    },
+    "publishedAt": "2024-07-20T08:00:00Z",
+    "tags": ["Automotive", "Review", "Cars"],
+    "readingTime": 6
+  },
+  {
+    "id": "15",
+    "title": "Cách chăm sóc tâm lý cho thú cưng khi đổi chỗ ở",
+    "slug": "cham-soc-tam-ly-thu-cung",
+    "excerpt": "Những mẹo hữu ích để giảm stress cho chó mèo khi cần chuyển nhà.",
+    "content": "# Bạn nhỏ bốn chân\n\nThú cưng cực kỳ nhạy cảm với sự thay đổi môi trường. Vài bước nhỏ sau đây sẽ giúp chúng làm quen nhanh hơn...",
+    "coverImage": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "13",
+      "name": "Thú cưng",
+      "slug": "thu-cung"
+    },
+    "publishedAt": "2024-08-05T13:45:00Z",
+    "tags": ["Pets", "Care", "Lifestyle"],
+    "readingTime": 4
+  },
+  {
+    "id": "16",
+    "title": "Từ ý tưởng trên giấy đến sản phẩm thực tế",
+    "slug": "tu-y-tuong-den-san-pham",
+    "excerpt": "Quá trình xây dựng một MVP (Minimum Viable Product) và bài học xương máu.",
+    "content": "# Hành trình khởi nghiệp\n\nMột ý tưởng hay không có nghĩa lý gì nếu thiếu đi quá trình thực thi sắc bén...",
+    "coverImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "author": {
+      "id": "1",
+      "name": "Phạm Trường Giang",
+      "avatar": "/images/authors/author-1.jpg",
+      "bio": "Full-stack Developer"
+    },
+    "category": {
+      "id": "14",
+      "name": "Khởi nghiệp",
+      "slug": "khoi-nghiep"
+    },
+    "publishedAt": "2024-08-25T10:00:00Z",
+    "tags": ["Startup", "Business", "Product"],
+    "readingTime": 7
   }
 ]

@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Blog Learning Platform",
-  description: "Dự án Blog hướng dẫn học Next.js từ cơ bản đến nâng cao",
+  title: "Giangpt Blog - sharing knowledge and experience",
+  description: "Sharing platform for knowledge and experience",
 };
 
 export default function RootLayout({

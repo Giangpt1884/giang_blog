@@ -10,19 +10,19 @@ export default async function Home() {
   return (
     <div className="flex flex-col min-h-[calc(100vh-160px)]">
       {/* Hero Section */}
-      <section className="bg-primary-50 py-20 lg:py-32 border-b border-primary-100">
+      <section className="py-20 lg:py-32 border-b">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Nền tảng Học tập <span className="text-primary-600">Next.js</span>
+            Nền tảng chia sẻ kiến thức và kinh nghiệm thực tế.
           </h1>
           <p className="text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
             Nâng cao kỹ năng React và làm chủ kiến trúc App Router tiên tiến nhất với các bài viết chuyên sâu từ cộng đồng.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/blog" className="btn btn-primary h-12 px-8 text-base shadow-md shadow-primary-600/20 w-full sm:w-auto">
+            <Link href="/blog" className="h-12 px-8 text-base shadow-sm font-medium rounded-md bg-black text-white hover:bg-gray-800 transition-colors flex items-center justify-center w-full sm:w-auto">
               Đọc Blog
             </Link>
-            <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer" className="btn bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 h-12 px-8 text-base shadow-sm w-full sm:w-auto">
+            <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer" className="h-12 px-8 text-base shadow-sm font-medium rounded-md bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 transition-colors flex items-center justify-center w-full sm:w-auto">
               Tài Liệu Next.js
             </a>
           </div>
@@ -37,17 +37,17 @@ export default async function Home() {
               <h2 className="text-3xl font-bold tracking-tight text-gray-900">Bài viết mới nhất</h2>
               <p className="text-gray-500 mt-2">Cập nhật những kiến thức nóng hổi nhất tuần</p>
             </div>
-            
-            <Link href="/blog" className="hidden sm:flex text-primary-600 hover:text-primary-700 font-semibold items-center gap-1 group">
-              Xem tất cả 
+
+            <Link href="/blog" className="hidden sm:flex text-gray-600 hover:text-black transition-colors font-medium items-center gap-1 group">
+              Xem tất cả
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </div>
-          
+
           <PostList posts={recentPosts} />
 
           <div className="mt-8 text-center sm:hidden">
-            <Link href="/blog" className="btn bg-gray-50 text-primary-600 hover:bg-gray-100 w-full text-center">
+            <Link href="/blog" className="h-10 px-4 text-sm shadow-sm font-medium rounded-md bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 transition-colors flex items-center justify-center w-full">
               Xem tất cả bài viết
             </Link>
           </div>

@@ -4,7 +4,7 @@ import { getPosts } from '@/lib/api'
 import { Suspense } from 'react'
 
 export const metadata = {
-  title: 'Blog | NextJS Blog',
+  title: 'Blog | Giangpt Blog',
   description: 'Tất cả bài viết về lập trình Next.js, React và Web Development',
 }
 
@@ -15,7 +15,7 @@ export default async function BlogPage({
 }) {
   const resolvedParams = await searchParams;
   const query = resolvedParams?.query || ''
-  
+
   // Gọi "Fake API" từ server, tự động render lại nếu có query change
   const posts = await getPosts(query)
 
@@ -26,13 +26,13 @@ export default async function BlogPage({
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4 tracking-tight">Tất cả bài viết</h1>
           <p className="text-lg text-gray-600">Khám phá các bài viết mới nhất từ cộng đồng.</p>
         </div>
-        
+
         {/* Suspense bao bọc SearchBar vì nó có hook useSearchParams */}
         <Suspense fallback={<div className="h-12 w-full md:max-w-md bg-gray-100 rounded-full animate-pulse delay-75"></div>}>
           <SearchBar />
         </Suspense>
       </div>
-      
+
       <PostList posts={posts} />
     </div>
   )

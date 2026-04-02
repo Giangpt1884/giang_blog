@@ -43,7 +43,7 @@ export default function SearchBar() {
       <input
         type="search"
         id="search"
-        className="block w-full rounded-full border-0 py-3 pl-10 pr-4 text-gray-900 ring-1 ring-inset ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6 transition-all"
+        className="block w-full rounded-full border-0 py-3 pl-10 pr-4 text-gray-900 ring-1 ring-inset ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6 transition-all"
         placeholder="Tìm kiếm nội dung..."
         onChange={(e) => setSearchTerm(e.target.value)}
         value={searchTerm}
